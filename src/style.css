@@ -2,6 +2,9 @@ body {
   background-color: #f7f5fc;
   font-family: "Roboto", sans-serif;
 }
+a {
+  color: #885df1;
+}
 .vanilla-app {
   background: white;
   margin: 45px auto;
@@ -9,4 +12,71 @@ body {
   padding: 30px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
   border-radius: 16px;
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding: 0 0 30px 0;
+}
+
+.search-form-input {
+  background-color: #f9f7fe;
+  border: none;
+  border-radius: 6px;
+  width: 60%;
+  padding: 15px 20px;
+  font-size: 16px;
+}
+.search-form-button {
+  background-color: #885df1;
+  border-radius: 5px;
+  padding: 15px 30px;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin-left: 5px;
+}
+main {
+  padding: 20px 0;
+}
+
+.vanilla-app-data {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.vanilla-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+.vanilla-app-details {
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(39, 33, 66, 0.4);
+}
+.vanilla-app-details strong {
+  color: #f65182;
+}
+.vanilla-app-temperature-container {
+  display: flex;
+}
+.vanilla-app-icon {
+  font-size: 44px;
+  margin-top: 22px;
+}
+.vanilla-app-temperature {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+}
+.vanilla-app-unit {
+  margin-top: 16px;
+  font-size: 28px;
+}
+footer {
+  border-top: 1px solid #f9f7fe;
+  padding: 30px 0 0 0;
+  text-align: centre;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.6);
 }
